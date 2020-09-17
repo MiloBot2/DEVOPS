@@ -1,8 +1,9 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
 }
 
 div h1{
+    white-space: 30px;
     width: 200px;
 }
 
@@ -12,22 +13,30 @@ div h1{
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 10px 10px 20px white;
+}
+
+.poster{
+    display: inline-block;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 100px black;
 }
 
 .posterimg{
-    width: 200px;
-    height: 300px;
+    width: 225px;
+    height: 325px;
 }
 
 #poster1{
-    background-color: blue;
+    background-color: white;
 }
 
 #poster2{
-    background-color: blue;
+    background-color: white;
 }
 
 #poster3{
-    background-color: blue;
+    background-color: white;
 }
